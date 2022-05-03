@@ -277,9 +277,3 @@ FROM bitnami/kafka:3.1.0-debian-10-r66
 
 # Tags: 2.8.1-debian-10-r178
 FROM bitnami/kafka:2.8.1-debian-10-r178
-
-# Tags: 3.0.1-debian-10-r12
-FROM bitnami/kafka:3.0.1-debian-10-r12
-
-# Tags: 3.1.0-debian-10-r65
-FROM bitnami/kafka:3.1.0-debian-10-r65
