@@ -1,12 +1,12 @@
-# Tags: latest, 3.1.0-debian-10-r96, 3.1.0, 3.1-debian-10, 3.1
+# Tags: latest, 3.1.0-debian-10-r106, 3.1.0, 3.1-debian-10, 3.1
 FROM bitnami/kafka:latest
-FROM bitnami/kafka:3.1.0-debian-10-r96
+FROM bitnami/kafka:3.1.0-debian-10-r106
 FROM bitnami/kafka:3.1.0
 FROM bitnami/kafka:3.1-debian-10
 FROM bitnami/kafka:3.1
 
-# Tags: 2.8.1-debian-10-r207, 2.8.1, 2.8-debian-10, 2.8
-FROM bitnami/kafka:2.8.1-debian-10-r207
+# Tags: 2.8.1-debian-10-r217, 2.8.1, 2.8-debian-10, 2.8
+FROM bitnami/kafka:2.8.1-debian-10-r217
 FROM bitnami/kafka:2.8.1
 FROM bitnami/kafka:2.8-debian-10
 FROM bitnami/kafka:2.8
@@ -14,11 +14,101 @@ FROM bitnami/kafka:2.8
 # Tags: _
 FROM bitnami/kafka:_
 
-# Tags: 3.0.1-debian-10-r41, 3.0.1, 3.0-debian-10, 3.0
-FROM bitnami/kafka:3.0.1-debian-10-r41
+# Tags: 3.0.1-debian-10-r51, 3.0.1, 3.0-debian-10, 3.0
+FROM bitnami/kafka:3.0.1-debian-10-r51
 FROM bitnami/kafka:3.0.1
 FROM bitnami/kafka:3.0-debian-10
 FROM bitnami/kafka:3.0
+
+# Tags: 2.8.1-debian-10-r216
+FROM bitnami/kafka:2.8.1-debian-10-r216
+
+# Tags: 3.1.0-debian-10-r105
+FROM bitnami/kafka:3.1.0-debian-10-r105
+
+# Tags: 3.0.1-debian-10-r50
+FROM bitnami/kafka:3.0.1-debian-10-r50
+
+# Tags: 2.8.1-debian-10-r215
+FROM bitnami/kafka:2.8.1-debian-10-r215
+
+# Tags: 3.1.0-debian-10-r104
+FROM bitnami/kafka:3.1.0-debian-10-r104
+
+# Tags: 3.0.1-debian-10-r49
+FROM bitnami/kafka:3.0.1-debian-10-r49
+
+# Tags: 2.8.1-debian-10-r214
+FROM bitnami/kafka:2.8.1-debian-10-r214
+
+# Tags: 3.1.0-debian-10-r103
+FROM bitnami/kafka:3.1.0-debian-10-r103
+
+# Tags: 3.0.1-debian-10-r48
+FROM bitnami/kafka:3.0.1-debian-10-r48
+
+# Tags: 2.8.1-debian-10-r213
+FROM bitnami/kafka:2.8.1-debian-10-r213
+
+# Tags: 3.1.0-debian-10-r102
+FROM bitnami/kafka:3.1.0-debian-10-r102
+
+# Tags: 3.0.1-debian-10-r47
+FROM bitnami/kafka:3.0.1-debian-10-r47
+
+# Tags: 2.8.1-debian-10-r212
+FROM bitnami/kafka:2.8.1-debian-10-r212
+
+# Tags: 3.1.0-debian-10-r101
+FROM bitnami/kafka:3.1.0-debian-10-r101
+
+# Tags: 3.0.1-debian-10-r46
+FROM bitnami/kafka:3.0.1-debian-10-r46
+
+# Tags: 2.8.1-debian-10-r211
+FROM bitnami/kafka:2.8.1-debian-10-r211
+
+# Tags: 3.1.0-debian-10-r100
+FROM bitnami/kafka:3.1.0-debian-10-r100
+
+# Tags: 3.0.1-debian-10-r45
+FROM bitnami/kafka:3.0.1-debian-10-r45
+
+# Tags: 2.8.1-debian-10-r210
+FROM bitnami/kafka:2.8.1-debian-10-r210
+
+# Tags: 3.1.0-debian-10-r99
+FROM bitnami/kafka:3.1.0-debian-10-r99
+
+# Tags: 3.0.1-debian-10-r44
+FROM bitnami/kafka:3.0.1-debian-10-r44
+
+# Tags: 2.8.1-debian-10-r209
+FROM bitnami/kafka:2.8.1-debian-10-r209
+
+# Tags: 3.1.0-debian-10-r98
+FROM bitnami/kafka:3.1.0-debian-10-r98
+
+# Tags: 3.0.1-debian-10-r43
+FROM bitnami/kafka:3.0.1-debian-10-r43
+
+# Tags: 2.8.1-debian-10-r208
+FROM bitnami/kafka:2.8.1-debian-10-r208
+
+# Tags: 3.0.1-debian-10-r42
+FROM bitnami/kafka:3.0.1-debian-10-r42
+
+# Tags: 3.1.0-debian-10-r97
+FROM bitnami/kafka:3.1.0-debian-10-r97
+
+# Tags: 2.8.1-debian-10-r207
+FROM bitnami/kafka:2.8.1-debian-10-r207
+
+# Tags: 3.0.1-debian-10-r41
+FROM bitnami/kafka:3.0.1-debian-10-r41
+
+# Tags: 3.1.0-debian-10-r96
+FROM bitnami/kafka:3.1.0-debian-10-r96
 
 # Tags: 2.8.1-debian-10-r206
 FROM bitnami/kafka:2.8.1-debian-10-r206
@@ -190,90 +280,3 @@ FROM bitnami/kafka:3.1.0-debian-10-r76
 
 # Tags: 3.0.1-debian-10-r22
 FROM bitnami/kafka:3.0.1-debian-10-r22
-
-# Tags: 2.8.1-debian-10-r187
-FROM bitnami/kafka:2.8.1-debian-10-r187
-
-# Tags: 3.1.0-debian-10-r75
-FROM bitnami/kafka:3.1.0-debian-10-r75
-
-# Tags: 3.0.1-debian-10-r21
-FROM bitnami/kafka:3.0.1-debian-10-r21
-
-# Tags: 2.8.1-debian-10-r186
-FROM bitnami/kafka:2.8.1-debian-10-r186
-
-# Tags: 3.1.0-debian-10-r74
-FROM bitnami/kafka:3.1.0-debian-10-r74
-
-# Tags: 3.0.1-debian-10-r20
-FROM bitnami/kafka:3.0.1-debian-10-r20
-
-# Tags: 2.8.1-debian-10-r185
-FROM bitnami/kafka:2.8.1-debian-10-r185
-
-# Tags: 3.1.0-debian-10-r73
-FROM bitnami/kafka:3.1.0-debian-10-r73
-
-# Tags: 3.0.1-debian-10-r19
-FROM bitnami/kafka:3.0.1-debian-10-r19
-
-# Tags: 2.8.1-debian-10-r184
-FROM bitnami/kafka:2.8.1-debian-10-r184
-
-# Tags: 3.1.0-debian-10-r72
-FROM bitnami/kafka:3.1.0-debian-10-r72
-
-# Tags: 3.0.1-debian-10-r18
-FROM bitnami/kafka:3.0.1-debian-10-r18
-
-# Tags: 2.8.1-debian-10-r183
-FROM bitnami/kafka:2.8.1-debian-10-r183
-
-# Tags: 3.1.0-debian-10-r71
-FROM bitnami/kafka:3.1.0-debian-10-r71
-
-# Tags: 3.0.1-debian-10-r17
-FROM bitnami/kafka:3.0.1-debian-10-r17
-
-# Tags: 2.8.1-debian-10-r182
-FROM bitnami/kafka:2.8.1-debian-10-r182
-
-# Tags: 3.1.0-debian-10-r70
-FROM bitnami/kafka:3.1.0-debian-10-r70
-
-# Tags: 3.0.1-debian-10-r16
-FROM bitnami/kafka:3.0.1-debian-10-r16
-
-# Tags: 2.8.1-debian-10-r181
-FROM bitnami/kafka:2.8.1-debian-10-r181
-
-# Tags: 3.1.0-debian-10-r69
-FROM bitnami/kafka:3.1.0-debian-10-r69
-
-# Tags: 3.0.1-debian-10-r15
-FROM bitnami/kafka:3.0.1-debian-10-r15
-
-# Tags: 2.8.1-debian-10-r180
-FROM bitnami/kafka:2.8.1-debian-10-r180
-
-# Tags: 3.1.0-debian-10-r68
-FROM bitnami/kafka:3.1.0-debian-10-r68
-
-# Tags: 3.0.1-debian-10-r14
-FROM bitnami/kafka:3.0.1-debian-10-r14
-
-# Tags: 3.1.0-debian-10-r67
-FROM bitnami/kafka:3.1.0-debian-10-r67
-
-# Tags: 2.8.1-debian-10-r179
-FROM bitnami/kafka:2.8.1-debian-10-r179
-
-# Tags: 3.0.1-debian-10-r13
-FROM bitnami/kafka:3.0.1-debian-10-r13
-
-# Tags: 3.1.0-debian-10-r66
-FROM bitnami/kafka:3.1.0-debian-10-r66
-
-# Tags: 2.8.1-debian-10-r178
-FROM bitnami/kafka:2.8.1-debian-10-r178
